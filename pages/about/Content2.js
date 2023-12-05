@@ -7,10 +7,10 @@ import Shadow from './Shadow';
 const Content2 = () => {
   return (
     <>
-      <main className='  h-screen my-8 py-14 px-6 mx-8 flex flex-col '>
+      <main className='md:h-screen md:my-8 md:py-14 md:px-6  md:mx-8 flex flex-col '>
 
         <div className=' h-2/4 pt-10 px-3 flex'>
-          <div className='w-full  flex p-4 m-2 bg-green-100  hover:border-2 hover:border-green-500    rounded-3xl'>
+          <div className='w-full h-60 md:h-auto flex md:p-4 md:m-2 bg-green-50  hover:border-2 hover:border-green-500  my-2    rounded-3xl'>
             <div className='w-4/6'>
               <p className='text-2xl font-bold my-7 mx-2 px-3'>Tele Doctor consultations</p>
               <p className='mx-2 px-3 my-2'>consult exerpts anytime anywhere from comfort of your home</p>
@@ -31,7 +31,6 @@ const Content2 = () => {
                   repeat: Infinity, // Infinite loop
                   repeatType: 'reverse', // Yoyo effect
                 }}
-
               />
               <span className='flex justify-center px-2 items-start' >
 
@@ -49,21 +48,18 @@ const Content2 = () => {
 
                     cx='65' cy='0' rx='15' ry='5' className=" fill-black/40 "
                   />
-
                 </svg>
-
-
               </span>
 
             </div>
           </div>
 
         </div>
-        <div className=' h-2/4 pb-10 px-3 flex'>
-          <div className=' w-1/2 flex p-4 m-2 bg-yellow-100 hover:border-2 hover:border-yellow-500 rounded-3xl'>
-            <div className='w-4/6'>
-              <p className='text-2xl font-bold my-7 mx-2 px-3'>Group Term Life  Insurance</p>
-              <p className='mx-2 px-3 my-2'>Protect Your employee and their families with the best group-term  life insurance  policy</p>
+        <div className=' h-2/4 pb-10 px-3 flex md:flex-row flex-col'>
+          <div className='w-full  h-60 md:h-auto md:w-1/2 flex md:p-4 md:m-2 bg-yellow-50 hover:border-2 hover:border-yellow-500 rounded-3xl my-2'>
+            <div className='w-full md:w-4/6'>
+              <p className='text-2xl font-bold my-7 mx-2 px-3'>Healths Check </p>
+              <p className='mx-2 px-3 my-2'>Catch potential hiccups early withb reguler health checkups ,Help your team bring  their A- game to Persernal lives and work daily</p>
             </div>
             <div className='w-2/6'>
               <motion.img
@@ -87,10 +83,10 @@ const Content2 = () => {
 
             </div>
           </div>
-          <div className=' w-1/2 flex p-4 m-2 bg-red-100 hover:border-2 hover:border-red-500  rounded-3xl'>
-            <div className='w-4/6'>
-              <p className='text-2xl font-bold my-7 mx-2 px-3'>Health Super top-up</p>
-              <p className='mx-2 px-3 my-2'>Why settle up for less you can upgrade your health inusrance upto 20 lakhs</p>
+          <div className='w-full h-60 md:h-auto md:w-1/2 flex md:p-4 md:m-2 bg-red-50 hover:border-2 hover:border-red-500  rounded-3xl my-2'>
+            <div className=' w-full md:w-4/6'>
+              <p className='text-2xl font-bold my-7 mx-2 px-3'>Fitness Plans</p>
+              <p className='mx-2 px-3 my-2'>Physically fit employees financly fit busness foster a healthier , more enegetic workforce witj customizable fitness plans</p>
             </div>
             <div className='w-2/6'>
               <motion.img

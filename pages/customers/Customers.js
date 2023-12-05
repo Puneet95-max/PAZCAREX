@@ -5,7 +5,7 @@ function Customers() {
         <>
             <main className='h-96 bg-purple-950 flex flex-col'>
                 <div className='p-2 mt-5'>
-                    <div className='text-5xl text-purple-300 font-serif flex justify-center mx-28 px-8 text-center mt-10 py-2 font-bold'>1600+ top companies in India trust Pazcare for their employee benefits.</div>
+                    <div className=' text-3xl  md:text-5xl text-purple-300 font-serif flex justify-center mx-18  md:mx-28 px-8 text-center mt-10 py-2 font-bold'>1600+ top companies in India trust Pazcare for their employee benefits.</div>
                 </div>
 
                 <div className='flex justify-evenly px-6'>

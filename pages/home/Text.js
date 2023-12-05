@@ -3,7 +3,7 @@ import Typewriter  from 'typewriter-effect'
 
 function Text() {
   return (
-    <div className="typewriter text-pink-500  text-3xl font-bold font-serif">
+    <div className="typewriter text-pink-500  text-xl md:text-3xl  font-bold font-serif">
       <Typewriter
         options={{
           strings: ["Coperate wellness Pakage", "Group Insureance", "Food,Fuel and Multi Ward Card"],

@@ -2,7 +2,6 @@ import React from 'react'
 import { useState, useEffect } from 'react';
 import Text from './Text'
 import Cora from './Cora'
-import Navbar from '@/components/navbar/Navbar'
 import Corausal from './Corausal'
 
 function Home() {
@@ -30,15 +29,14 @@ function Home() {
     return (
         <div className=' p-2  flex flex-col items-center overscroll-none ' style={{ backgroundImage: 'url("https://assets-global.website-files.com/6145f7146a1337faae24d53f/649936135cffdde3689065e0_background%20(1).svg")' }}>
 
-            <div className='text-2xl md:text-6xl font-bold m-4 mt-24 font-serif'>Comprehensive Benefits, <br />Uncomplicated Experience</div>
+            <div className='text-5xl md:text-6xl font-bold text-center my-3 mx-12 md:m-4 mt-20 md:mt-24 font-serif'>Comprehensive Benefits, <br />Uncomplicated Experience</div>
 
             <div className='flex flex-col   md:text-3xl justify-center '>
                 <span className=''> Looking for employee benefits?</span>
-                {/* <span className='flex flex-row'><p>We'e got the whole kit - </p>                <p><Text /></p></span> */}
             </div>
 
-            <div className='flex flex-row  md:text-3xl '>
-                <span className='flex flex-row'><p>We'e got the whole kit - </p><p><Text /></p></span>
+            <div className='flex     flex-row  md:text-3xl '>
+                <span className='flex flex-col  text-center  md:flex-row'><p>We'e got the whole kit - </p><p><Text /></p></span>
 
             </div>
             <div>
