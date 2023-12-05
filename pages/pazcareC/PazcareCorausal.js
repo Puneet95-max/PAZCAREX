@@ -10,8 +10,8 @@ function PazcareCorausal() {
     const sliderRef = useRef(null);
 
     const settings = {
-        dots: true,
-        infinite: true,
+        dots: false,
+        infinite: false,
         speed: 500,
         slidesToScroll: 1,
         slidesToShow: 3.5,
@@ -44,9 +44,9 @@ function PazcareCorausal() {
     return (
 
         <main className='bg-slate-50 ' >
-            <div className='flex flex-col items-center my-10  ' >
-                <div className='font-bold text-4xl'>Why choose Pazcare</div>
-                <div>You're choosing flexibility, transparency, and personalization in your employee benefits when choosing Pazcare</div>
+            <div className='flex flex-col items-center   py-11 ' >
+                <div className='font-bold text-5xl my-5 mt-16'>Why choose Pazcare?</div>
+                <div className='py-3'>You're choosing flexibility, transparency, and personalization in your employee benefits when choosing Pazcare</div>
             </div>
             <div>
                 <Slider ref={sliderRef} {...settings} className='' >
@@ -54,7 +54,7 @@ function PazcareCorausal() {
                         <div className='flex flex-col bg-green-50 rounded-3xl border-2 ' style={{ width: '400px',height:"", margin: '0 auto' }}>
                             <div className='mx-5 text-3xl flex justify-center text-center' style={{ margin: "30px" }}>Handpick employee benefits which you want </div>
                             <div className='flex justify-center mx-10 text-center'>Handpick the ideal perks for  your team with a catalogue of choices</div>
-                            <div><img src="https://assets-global.website-files.com/6145f7146a1337faae24d53f/64884c87c2377ab9d5d09745_handpick%20benefits.svg" className='w-[400px]'></img></div>
+                            <div><img src="https://assets-global.website-files.com/6145f7146a1337faae24d53f/64884c87c2377ab9d5d09745_handpick%20benefits.svg" className='mt-14'></img></div>
                         </div>
                     </div>
 
@@ -72,7 +72,7 @@ function PazcareCorausal() {
                         <div className=' bg-blue-50 flex flex-col rounded-3xl border-2  ' style={{ width: '400px', margin: '0 auto' }}>
                             <div className='mx-5 text-3xl flex justify-center text-center' style={{ margin: "30px" }}>Save hours with digital benefits  management</div>
                             <div className='flex justify-center mx-10 text-center'>No more sheets or emails,manage employee benefits digitaly and save hours every month</div>
-                            <div><img src="https://assets-global.website-files.com/6145f7146a1337faae24d53f/6492d0bba817191a67fb6364_pazcare-dashboard.svg" className='w-[400px]'></img></div>
+                            <div><img src="https://assets-global.website-files.com/6145f7146a1337faae24d53f/6492d0bba817191a67fb6364_pazcare-dashboard.svg" className='mt-9'></img></div>
                         </div>
                     </div>
 
@@ -80,16 +80,16 @@ function PazcareCorausal() {
                         <div className='bg-yellow-50 flex flex-col rounded-3xl border-2  ' style={{ width: '400px', margin: '0 auto' }}>
                             <div className='mx-5 text-3xl flex justify-center text-center ' style={{ margin: "30px" }}>Compassionate ,efficent claims assistance</div>
                             <div className='flex justify-center mx-10 text-center'>stress free claims support,handled with care and empathy</div>
-                            <div><img src="https://assets-global.website-files.com/6145f7146a1337faae24d53f/64917bfbde25cb7209604896_pazcare%20assistance.png" className='w-[400px]'></img> </div>
+                            <div><img src="https://assets-global.website-files.com/6145f7146a1337faae24d53f/64917bfbde25cb7209604896_pazcare%20assistance.png" className='mt-12'></img> </div>
                         </div>
                     </div>
 
                 </Slider>
-                <div className="flex justify-center space-x-6  text-slate-950 mt-4">
-                    <button className="text-5xl" onClick={() => sliderRef.current.slickPrev()}>
+                <div className="flex justify-center space-x-6  text-slate-950 m-8">
+                    <button className="text-4xl rounded-full bg-slate-200 px-5 py-1" onClick={() => sliderRef.current.slickPrev()}>
                         &#8249;
                     </button>
-                    <button className="text-5xl " onClick={() => sliderRef.current.slickNext()}>
+                    <button className="text-4xl rounded-full bg-slate-200 px-5 py-1" onClick={() => sliderRef.current.slickNext()}>
                         &#8250;
                     </button>
                 </div>
