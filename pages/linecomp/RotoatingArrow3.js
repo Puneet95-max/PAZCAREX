@@ -1,0 +1,40 @@
+import React, { useState, useEffect } from 'react';
+import { motion } from 'framer-motion';
+
+const RotoatingArrow3 = () => {
+  const [rotation, setRotation] = useState(0);
+
+  useEffect(() => {
+    // Rotate the arrow by -90 degrees after 10 seconds
+    const rotateTimeout = setTimeout(() => {
+      setRotation(-90);
+
+      // Rotate the arrow back to its normal position after another 10 seconds
+      const resetTimeout = setTimeout(() => {
+        setRotation(0);
+      }, 10000);
+    }, 30000);
+
+    // Cleanup the timeouts to avoid memory leaks
+    return () => {
+      clearTimeout(rotateTimeout);
+    };
+  }, []);
+
+  return (
+    <motion.div
+      className="arrow"
+      style={{
+        width: 0,
+        height: 0,
+        borderTop: '10px solid transparent',
+        borderBottom: '10px solid transparent',
+        borderRight: '20px solid red',
+        transform: `rotate(${rotation}deg)`,
+        transition: 'transform 0.5s ease-in-out',
+      }}
+    />
+  );
+};
+
+export default RotoatingArrow3;

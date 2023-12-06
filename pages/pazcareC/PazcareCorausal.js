@@ -25,7 +25,7 @@ function PazcareCorausal() {
             {
                 breakpoint: 768, // Medium screens
                 settings: {
-                    slidesToShow: 1,
+                    slidesToShow: 1.5,
                 },
             },
             {
@@ -45,8 +45,8 @@ function PazcareCorausal() {
 
         <main className='bg-slate-50 ' >
             <div className='flex flex-col items-center   py-11 ' >
-                <div className='font-bold text-5xl my-5 mt-16'>Why choose Pazcare?</div>
-                <div className='py-3'>You're choosing flexibility, transparency, and personalization in your employee benefits when choosing Pazcare</div>
+                <div className='font-bold  text-3xl md:text-5xl my-5 mx-2 md:mt-16'>Why choose Pazcare?</div>
+                <div className='py-3 mx-3 text-center'>You're choosing flexibility, transparency, and personalization in your employee benefits when choosing Pazcare</div>
             </div>
             <div>
                 <Slider ref={sliderRef} {...settings} className='' >
