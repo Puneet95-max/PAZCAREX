@@ -8,6 +8,8 @@ import RotoatingArrow3 from './RotoatingArrow3';
 import Textcont1 from './Textcont1';
 import Textcont2 from './Textcont2';
 import Textcont3 from './Textcont3';
+import Customers from '../customers/Customers';
+import Custumsatisfy from '@/components/Custumsatisfy';
 
 
 
@@ -38,22 +40,22 @@ function Linecomp() {
 
     return (
         <>
-            <main className='h-screen bg-purple-950 text-white px-2'>
+            <main className=' bg-purple-950 text-white px-2'>
                 <p className='mx-5 font0 bold text-center flex justify-center py-20 text-5xl'>Accessing employee benefits is now easy and straightforward with the Pazcare app.</p>
 
                 <div className='flex w-full'>
-                    <div className='w-1/2 flex flex-col px-5 ml-20'>
+                    <div className='w-1/2 flex flex-col my-10 px-5 ml-20'>
                         {/* <LineAnimation/> */}
-                        <div>
+                        <div className='relative'>
                             <motion.div
-                                className=""
+                                className="absolute z-40"
                                 initial={{ width: 0 }}
                                 animate={{ width: '100%' }}
                                 transition={{ duration: 10, ease: 'easeInOut', repeat: Infinity, repeatDelay: 20 }}
-                                style={{ height: '4px', background: 'red' }}
+                                style={{ height: '2px', background: 'red' }}
 
                             />
-                            <div className='border-2 border-white w-full '></div>
+                            <div className='border-[1px]  border-white w-full'></div>
                         </div>
                         <div className='text-4xl font-white flex flex-col justify-between'>
                             <div className='flex justify-between'>
@@ -68,15 +70,16 @@ function Linecomp() {
                         </div>
 
                         {/* <LineAnimation /> */}
-                        <motion.div
-                            className=""
-                            initial={{ width: 0 }}
-                            animate={{ width: '100%' }}
-                            transition={{ duration: 10, ease: 'easeInOut', delay: 10, repeat: Infinity, repeatDelay: 20 }}
-                            style={{ height: '4px', background: 'red' }}
-                        />
-                        <div className='border-2 border-white w-full '></div>
-
+                        <div className='relative'>
+                            <motion.div
+                                className="absolute z-40"
+                                initial={{ width: 0 }}
+                                animate={{ width: '100%' }}
+                                transition={{ duration: 10, ease: 'easeInOut', delay: 10, repeat: Infinity, repeatDelay: 20 }}
+                                style={{ height: '2px', background: 'red' }}
+                            />
+                            <div className='border-[1px] border-white w-full '></div>
+                        </div>
                         <div className='text-4xl font-bold flex flex-col justify-between'>
                             <div className='flex justify-between'>
                                 <p className='m-2 my-6 font-bold font-serif'>Pazcare “Care Crew”</p>
@@ -92,15 +95,15 @@ function Linecomp() {
 
                         </div>
                         {/* <LineAnimation /> */}
-                        <div>
+                        <div className='relative'>
                             <motion.div
-                                className=""
+                                className="absolute"
                                 initial={{ width: 0 }}
                                 animate={{ width: '100%' }}
                                 transition={{ duration: 10, ease: 'easeInOut', delay: 20, repeat: Infinity, repeatDelay: 20 }}
-                                style={{ height: '4px', background: 'red' }}
+                                style={{ height: '2px', background: 'red' }}
                             />
-                            <div className='border-2 border-white w-full '></div>
+                            <div className='border-[1px]  border-white w-full '></div>
                         </div>
 
                         <div className='text-4xl font-bold  flex flex-col justify-between'>
@@ -112,18 +115,26 @@ function Linecomp() {
 
                             </div>
 
-                             <div>
+                            <div>
                                 <Textcont3></Textcont3>
-                             </div>
+                            </div>
 
 
                         </div>
-                        <div className='border-2 border-white w-full '></div>
+                        <div className='border-[1px] border-white w-full '></div>
                     </div>
                     <div className='w-1/2 '>
                         <ImageRotator />
                     </div>
                 </div>
+
+
+                <div className='py-20'>
+                    <button className='flex mx-auto   justify-center hover:bg-purple-500 font-bold  text-white border-2 border-white px-3 py-2 rounded-full'>Know more about our platform</button>
+                </div>
+
+              
+
             </main>
         </>
     )

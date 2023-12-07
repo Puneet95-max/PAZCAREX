@@ -9,6 +9,10 @@ import Smallnavbar from './navbar/Smallnavbar';
 import PazcareCorausal from '@/pages/pazcareC/PazcareCorausal';
 import Whoispazcare from './Whoispazcare';
 import Linecomp from '@/pages/linecomp/Linecomp';
+import Linecomp2 from '@/pages/lincomp2/Linecomp2';
+import Custumsatisfy from './Custumsatisfy';
+import Certification from './Certification';
+import New from './New';
 
 
 function Index() {
@@ -58,28 +62,38 @@ function Index() {
       </section>
 
       <section>
-        <PazcareCorausal/>
+        <PazcareCorausal />
       </section>
+      <section>
+        <Whoispazcare />
+      </section>
+
+
 
       <section>
         <Linecomp></Linecomp>
       </section>
-      
+
       <section>
-        <Whoispazcare/>
+        <Custumsatisfy></Custumsatisfy>
+
+      </section>
+      <section>
+        <Linecomp2></Linecomp2>
       </section>
 
-  
+      <section>
+        <Certification></Certification>
+      </section>
+      <section>
+        <New></New>
+      </section>
+
+
 
       <section>
         <CarouselComponent />
       </section>
-
-      
-
-
-
-
     </div>
   )
 }

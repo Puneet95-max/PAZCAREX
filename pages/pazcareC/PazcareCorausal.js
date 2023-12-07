@@ -43,9 +43,9 @@ function PazcareCorausal() {
 
     return (
 
-        <main className='bg-slate-50 ' >
+        <main className='bg-slate-100 ' >
             <div className='flex flex-col items-center   py-11 ' >
-                <div className='font-bold  text-3xl md:text-5xl my-5 mx-2 md:mt-16'>Why choose Pazcare?</div>
+                <div className='font-bold font-serif text-3xl md:text-6xl my-5 mx-2 md:mt-16'>Why choose Pazcare?</div>
                 <div className='py-3 mx-3 text-center'>You're choosing flexibility, transparency, and personalization in your employee benefits when choosing Pazcare</div>
             </div>
             <div>
@@ -85,7 +85,7 @@ function PazcareCorausal() {
                     </div>
 
                 </Slider>
-                <div className="flex justify-center space-x-6  text-slate-950 m-8">
+                <div className="flex justify-center space-x-6  text-slate-950 py-8">
                     <button className="text-4xl rounded-full bg-slate-200 px-5 py-1" onClick={() => sliderRef.current.slickPrev()}>
                         &#8249;
                     </button>

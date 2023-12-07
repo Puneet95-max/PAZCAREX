@@ -10,7 +10,7 @@ function Navbar() {
 
     return (
         <>
-            <div className='h-20  shadow-2xl w-full bg-white  flex flex-row sticky top-0 '>
+            <div className='h-20  shadow-2xl w-full bg-white  flex flex-row fixed z-50 '>
 
                 {/* logo */}
                 <div className='flex items-center w-1/5 ' style={{ marginLeft: '90px' }}>
