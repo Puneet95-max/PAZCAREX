@@ -13,6 +13,7 @@ import Linecomp2 from '@/pages/lincomp2/Linecomp2';
 import Custumsatisfy from './Custumsatisfy';
 import Certification from './Certification';
 import New from './New';
+import Exp from './Exp';
 
 
 function Index() {
@@ -93,6 +94,10 @@ function Index() {
 
       <section>
         <CarouselComponent />
+      </section>
+
+      <section>
+        <Exp></Exp>
       </section>
     </div>
   )

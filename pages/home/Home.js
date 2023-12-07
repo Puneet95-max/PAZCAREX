@@ -29,7 +29,7 @@ function Home() {
     return (
         <div className=' p-2  flex flex-col items-center overscroll-none ' style={{ backgroundImage: 'url("https://assets-global.website-files.com/6145f7146a1337faae24d53f/649936135cffdde3689065e0_background%20(1).svg")' }}>
 
-            <div className='text-5xl md:text-6xl font-bold text-center my-3 mx-12 md:m-4 mt-20 md:mt-24 font-serif'>Comprehensive Benefits, <br />Uncomplicated Experience</div>
+            <div className='text-5xl md:text-6xl font-bold text-center my-3 mx-12 md:m-4 mt-20 md:mt-24 md:pt-24 font-serif'>Comprehensive Benefits, <br />Uncomplicated Experience</div>
 
             <div className='flex flex-col   md:text-3xl justify-center '>
                 <span className=''> Looking for employee benefits?</span>
