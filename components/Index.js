@@ -14,6 +14,7 @@ import Custumsatisfy from './Custumsatisfy';
 import Certification from './Certification';
 import New from './New';
 import Exp from './Exp';
+import Footer from '@/pages/footer/Footer';
 
 
 function Index() {
@@ -98,6 +99,10 @@ function Index() {
 
       <section>
         <Exp></Exp>
+      </section>
+
+      <section>
+        <Footer></Footer>
       </section>
     </div>
   )
