@@ -21,7 +21,7 @@ const About = () => {
           <div className='flex flex-col p-2 my-3 '>
             <button
               onClick={() => handleButtonClick('content1')}
-              className={`border-2 py-4  rounded-full text-4xl mx-10 flex flex-row justify-center my-3 font-serif ${selectedContent === 'content1' ? 'border-purple-950 hover:bg-purple-950 hover:border-purple-950 bg-purple-950 text-white' : 'border-purple-800 hover:border-purple-800 hover:bg-purple-100 text-purple-950'}`}
+              className={`border-2 py-4  rounded-full text-3xl md:text-4xl mx-10 flex flex-row justify-center my-3 font-serif ${selectedContent === 'content1' ? 'border-purple-950 hover:bg-purple-950 hover:border-purple-950 bg-purple-950 text-white' : 'border-purple-800 hover:border-purple-800 hover:bg-purple-100 text-purple-950'}`}
             >
               <span className=''>
                 <Image
@@ -36,7 +36,7 @@ const About = () => {
             </button>
             <button
               onClick={() => handleButtonClick('content2')}
-              className={`border-2 py-5  rounded-full text-4xl mx-10 flex flex-row justify-center my-3  font-serif ${selectedContent === 'content2' ? 'border-purple-950 hover:border-purple-950 bg-purple-950 text-white' : 'border-purple-800 hover:border-purple-800 text-purple-950 hover:bg-purple-100'}`}
+              className={`border-2 py-5  rounded-full text-3xl md:text-4xl mx-10 flex flex-row justify-center my-3  font-serif ${selectedContent === 'content2' ? 'border-purple-950 hover:border-purple-950 bg-purple-950 text-white' : 'border-purple-800 hover:border-purple-800 text-purple-950 hover:bg-purple-100'}`}
             >
               <span className=''> <Image
                 src='/logo.png'
@@ -50,7 +50,7 @@ const About = () => {
             </button>
             <button
               onClick={() => handleButtonClick('content3')}
-              className={`border-2 py-4  rounded-full text-4xl mx-10 flex flex-row justify-center my-3  font-serif ${selectedContent === 'content3' ? 'border-purple-950 hover:border-purple-950 bg-purple-950 text-white' : 'border-purple-800 hover:border-purple-800 text-purple-950 hover:bg-purple-100'}`}
+              className={`border-2 py-4  rounded-full text-3xl md:text-4xl mx-10 flex flex-row justify-center my-3  font-serif ${selectedContent === 'content3' ? 'border-purple-950 hover:border-purple-950 bg-purple-950 text-white' : 'border-purple-800 hover:border-purple-800 text-purple-950 hover:bg-purple-100'}`}
             >
               <span className=''> <Image
                 src='/logo.png'
