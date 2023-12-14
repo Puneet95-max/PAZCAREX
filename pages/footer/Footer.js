@@ -20,34 +20,34 @@ const Footer = () => {
                     <div className=' flex flex-col pl-10 text-left'>
                         <h2 className='  pb-8 flex  text-left font-bold text-xl '>Platform </h2>
                         <div className='flex justify-center text-left flex-col '>
-                            <Link href="/" className=' hover:underline font-semibold flex items-center pb-3  text-black/70'>Overview</Link>
-                            <Link href="/" className=' hover:underline font-semibold flex items-center pb-3  text-black/70'>Employs Experience</Link>
-                            <Link href="/" className=' hover:underline font-semibold flex items-center pb-3  text-black/70'>Mobile Apps for Employs</Link>
+                            <Link href="/" className=' hover:underline  flex items-center pb-3  text-black/70'>Overview</Link>
+                            <Link href="/" className=' hover:underline  flex items-center pb-3  text-black/70'>Employs Experience</Link>
+                            <Link href="/" className=' hover:underline  flex items-center pb-3  text-black/70'>Mobile Apps for Employs</Link>
                         </div>
                     </div>
                     <div className='flex flex-col pl-16 text-left'>
                         <h2 className='  pb-8 flex  text-left font-bold text-xl '>Products </h2>
                         <div className='flex justify-center text-left flex-col '>
-                            <Link href="/" className=' hover:underline font-semibold flex items-center pb-3  text-black/70'>Group health insurance</Link>
-                            <Link href="/" className=' hover:underline font-semibold flex items-center pb-3  text-black/70'>Group personal accident insurance</Link>
-                            <Link href="/" className=' hover:underline font-semibold flex items-center pb-3  text-black/70'>group term life insurance</Link>
-                            <Link href="/" className=' hover:underline font-semibold flex items-center pb-3  text-black/70'>Super top-up insurance</Link>
-                            <Link href="/" className=' hover:underline font-semibold flex items-center pb-3  text-black/70'>Coperate wellness packages</Link>
-                            <Link href="/" className=' hover:underline font-semibold flex items-center pb-3  text-black/70'>Pazcard employe packages</Link>
-                            <Link href="/" className=' hover:underline font-semibold flex items-center pb-3  text-black/70'>Keyman insurance</Link>
-                            <Link href="/" className=' hover:underline font-semibold flex items-center pb-3  text-black/70'>Fire insurance</Link>
-                            <Link href="/" className=' hover:underline font-semibold flex items-center pb-3  text-black/70'>Directors & officers liability insurance</Link>
+                            <Link href="/" className=' hover:underline  flex items-center pb-3  text-black/70'>Group health insurance</Link>
+                            <Link href="/" className=' hover:underline  flex items-center pb-3  text-black/70'>Group personal accident insurance</Link>
+                            <Link href="/" className=' hover:underline  flex items-center pb-3  text-black/70'>group term life insurance</Link>
+                            <Link href="/" className=' hover:underline  flex items-center pb-3  text-black/70'>Super top-up insurance</Link>
+                            <Link href="/" className=' hover:underline  flex items-center pb-3  text-black/70'>Coperate wellness packages</Link>
+                            <Link href="/" className=' hover:underline  flex items-center pb-3  text-black/70'>Pazcard employe packages</Link>
+                            <Link href="/" className=' hover:underline  flex items-center pb-3  text-black/70'>Keyman insurance</Link>
+                            <Link href="/" className=' hover:underline  flex items-center pb-3  text-black/70'>Fire insurance</Link>
+                            <Link href="/" className=' hover:underline  flex items-center pb-3  text-black/70'>Directors & officers liability insurance</Link>
                         </div>
                     </div>
                     <div className='flex flex-col pl-16 text-left'>
                         <h2 className='  pb-8 flex  text-left font-bold text-xl '>Company </h2>
                         <div className='flex justify-center text-left flex-col '>
-                            <Link href="/" className=' hover:underline font-semibold flex items-center pb-3  text-black/70'>Pazcare reviews</Link>
-                            <Link href="/" className=' hover:underline font-semibold flex items-center pb-3  text-black/70'>Contact us</Link>
-                            <Link href="/" className=' hover:underline font-semibold flex items-center pb-3  text-black/70'>about us</Link>
-                            <Link href="/" className=' hover:underline font-semibold flex items-center pb-3  text-black/70'>Get help</Link>
-                            <Link href="/" className=' hover:underline font-semibold flex items-center pb-3  text-black/70'>Terms & conditions</Link>
-                            <Link href="/" className=' hover:underline font-semibold flex items-center pb-3  text-black/70'>Privacy policy</Link>
+                            <Link href="/" className=' hover:underline  flex items-center pb-3  text-black/70'>Pazcare reviews</Link>
+                            <Link href="/" className=' hover:underline  flex items-center pb-3  text-black/70'>Contact us</Link>
+                            <Link href="/" className=' hover:underline  flex items-center pb-3  text-black/70'>about us</Link>
+                            <Link href="/" className=' hover:underline  flex items-center pb-3  text-black/70'>Get help</Link>
+                            <Link href="/" className=' hover:underline  flex items-center pb-3  text-black/70'>Terms & conditions</Link>
+                            <Link href="/" className=' hover:underline  flex items-center pb-3  text-black/70'>Privacy policy</Link>
 
                         </div>
                     </div>

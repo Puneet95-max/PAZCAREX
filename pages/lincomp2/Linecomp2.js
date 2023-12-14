@@ -39,11 +39,11 @@ function Linecomp2() {
   return (
     <>
       <main className=' bg-purple-200 text-black py-6 px-2'>
-        <p className='mx-24  text-purple-800 text-center flex justify-center py-20 text-5xl'>You take care of people strategies.
+        <p className='md:mx-24  text-purple-800 text-center flex justify-center py-20 text-3xl md:text-5xl'>You take care of people strategies.
           We'll take care of your end-to-end benefits management..</p>
 
         <div className='flex w-full'>
-          <div className='w-1/2 flex flex-col my-10 px-5 ml-20'>
+          <div className='w-full md:w-1/2 flex flex-col my-10 px-5 md:ml-20'>
             {/* <LineAnimation/> */}
             <div className='relative'>
               <motion.div
@@ -52,7 +52,6 @@ function Linecomp2() {
                 animate={{ width: '100%' }}
                 transition={{ duration: 10, ease: 'easeInOut', repeat: Infinity, repeatDelay: 20 }}
                 style={{ height: '2px', background: 'red' }}
-
               />
               <div className='border-[1px]  border-black w-full'></div>
             </div>
@@ -90,8 +89,6 @@ function Linecomp2() {
                <Text2></Text2>
               </div>
 
-
-
             </div>
             {/* <LineAnimation /> */}
             <div className='relative'>
@@ -122,7 +119,7 @@ function Linecomp2() {
             </div>
             <div className='border-[1px] border-black w-full '></div>
           </div>
-          <div className='w-1/2 '>
+          <div className='w-0 md:w-1/2 '>
             <Img></Img>
           </div>
         </div>

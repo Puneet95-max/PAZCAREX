@@ -22,7 +22,7 @@ const ImageRotator = () => {
   }, [rotationInterval]);
 
   return (
-    <div className="image-rotator">
+    <div className="image-rotator hidden md:block">
       <img
         src={imageUrls[currentImageIndex]}
         alt={`Image ${currentImageIndex + 1}`}

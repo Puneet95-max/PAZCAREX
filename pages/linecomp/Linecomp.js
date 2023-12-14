@@ -41,10 +41,10 @@ function Linecomp() {
     return (
         <>
             <main className=' bg-purple-950 text-white px-2'>
-                <p className='mx-5 font0 bold text-center flex justify-center py-20 text-5xl'>Accessing employee benefits is now easy and straightforward with the Pazcare app.</p>
+                <p className='mx-5 font0 bold text-center flex justify-center py-20 text-3xl  md:text-5xl'>Accessing employee benefits is now easy and straightforward with the Pazcare app.</p>
 
                 <div className='flex w-full'>
-                    <div className='w-1/2 flex flex-col my-10 px-5 ml-20'>
+                    <div className='w-full md:w-1/2 flex flex-col my-10 px-5 md:ml-20'>
                         {/* <LineAnimation/> */}
                         <div className='relative'>
                             <motion.div
@@ -57,9 +57,9 @@ function Linecomp() {
                             />
                             <div className='border-[1px]  border-white w-full'></div>
                         </div>
-                        <div className='text-4xl font-white flex flex-col justify-between'>
+                        <div className='md:text-4xl text-3xl font-white flex flex-col justify-between'>
                             <div className='flex justify-between'>
-                                <p className='m-2 my-6 font-bold font-serif'>  Easy claims process</p>
+                                <p className='md:m-2 my-6 font-bold font-serif'>  Easy claims process</p>
                                 <div className='flex justify-end items-center'>
                                     <RotatingArrow />
                                 </div>
@@ -80,7 +80,7 @@ function Linecomp() {
                             />
                             <div className='border-[1px] border-white w-full '></div>
                         </div>
-                        <div className='text-4xl font-bold flex flex-col justify-between'>
+                        <div className='md:text-4xl text-3xl font-bold flex flex-col justify-between'>
                             <div className='flex justify-between'>
                                 <p className='m-2 my-6 font-bold font-serif'>Pazcare “Care Crew”</p>
                                 <div className='flex justify-end items-center'>
@@ -106,7 +106,7 @@ function Linecomp() {
                             <div className='border-[1px]  border-white w-full '></div>
                         </div>
 
-                        <div className='text-4xl font-bold  flex flex-col justify-between'>
+                        <div className='md:text-4xl text-3xl font-bold  flex flex-col justify-between'>
                             <div className='flex justify-between'>
                                 <p className='m-2 my-6 font-bold font-serif'> More benefits. Less switching</p>
                                 <div className='flex justify-end items-center'>
@@ -123,7 +123,7 @@ function Linecomp() {
                         </div>
                         <div className='border-[1px] border-white w-full '></div>
                     </div>
-                    <div className='w-1/2 '>
+                    <div className='w-0  md:w-1/2 '>
                         <ImageRotator />
                     </div>
                 </div>

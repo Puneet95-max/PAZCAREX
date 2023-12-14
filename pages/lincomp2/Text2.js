@@ -32,14 +32,14 @@ const Text2 = () => {
             <div className='flex  w-full'>
                 <div className='flex w-full'>
                     <div className='w-1/2 text-xl my-2 font-bold flex items-center '>
-                        <span className='mr-1'><img src="https://assets-global.website-files.com/6145f7146a1337faae24d53f/648b0fb209b094066061d37b_green-tick.svg" loading="lazy" alt="Green Tick" /></span>
+                        <span className='mr-1'><img src="https://assets-global.website-files.com/6145f7146a1337faae24d53f/649abb9a6a6ce36c69c18880_pink-tick.svg" loading="lazy" alt="Green Tick" /></span>
                         <p className=''>Real-time updates
 
 
                         </p>
                     </div>
                     <div className='w-1/2 text-xl mx-3 my-2 font-bold flex items-center'>
-                        <span className='mr-1'><img src="https://assets-global.website-files.com/6145f7146a1337faae24d53f/648b0fb209b094066061d37b_green-tick.svg" loading="lazy" alt="Green Tick" /></span>
+                        <span className='mr-1'><img src="https://assets-global.website-files.com/6145f7146a1337faae24d53f/649abb9a6a6ce36c69c18880_pink-tick.svg" loading="lazy" alt="Green Tick" /></span>
                         <p>Efficient planning</p>
                     </div>
                 </div>

@@ -25,7 +25,7 @@ function PazcareCorausal() {
             {
                 breakpoint: 768, // Medium screens
                 settings: {
-                    slidesToShow: 1.5,
+                    slidesToShow: 1,
                 },
             },
             {

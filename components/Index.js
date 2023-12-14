@@ -15,6 +15,10 @@ import Certification from './Certification';
 import New from './New';
 import Exp from './Exp';
 import Footer from '@/pages/footer/Footer';
+import Smallcustsatis from './Smallcustsatis';
+import Smallcerti from './Smallcerti';
+import Footer2 from '@/pages/footer/Footer2';
+import Smallcustomer from '@/pages/customers/Smallcustomer';
 
 
 function Index() {
@@ -56,7 +60,16 @@ function Index() {
       </section>
 
       <section>
+
+        {/* {isDesktop ? (
+          <Customers />
+        ) : (
+          <Smallcustomer />
+        )} */}
+
         <Customers />
+
+
       </section>
 
       <section>
@@ -77,16 +90,30 @@ function Index() {
       </section>
 
       <section>
-        <Custumsatisfy></Custumsatisfy>
+        {isDesktop ? (
+          <Custumsatisfy />
+        ) : (
+          <Smallcustsatis />
+        )}
 
       </section>
+
+
+
       <section>
         <Linecomp2></Linecomp2>
       </section>
 
       <section>
-        <Certification></Certification>
+        {isDesktop ? (
+          <Certification />) : (
+          <Smallcerti />
+        )}
       </section>
+
+
+
+
       <section>
         <New></New>
       </section>
@@ -102,7 +129,11 @@ function Index() {
       </section>
 
       <section>
-        <Footer></Footer>
+        {isDesktop ? (
+          <Footer />
+        ) : (
+          <Footer2 />
+        )}
       </section>
     </div>
   )

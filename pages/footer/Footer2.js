@@ -4,12 +4,12 @@ import React from 'react'
 function Footer2() {
     return (
         <>
-            <main className='h-96 px-2 ' >
+            <main className='md:h-96 px-2 ' >
                 <br /><br />
-                <div className='border-2 w-full m'></div>
+                <div className='md:border-2  w-full '></div>
 
-                <div className='flex my-12'>
-                    <div className='w-1/2  flex flex-col'>
+                <div className='flex md:flex-row flex-col md:my-12'>
+                    <div className=' w-full md:w-1/2  flex flex-col'>
                         <div className='flex items-center'>
                             <Image
                                 src='/logo.png'
@@ -52,7 +52,7 @@ function Footer2() {
 
 
                     </div>
-                    <div className='w-1/2  flex flex-col items-center '>
+                    <div className='w-1/2  flex flex-col items-center mx-2 '>
                         <div className='flex flex-col font-bold my-5'>
                             <p>Best pricing for you.</p>
                             <p>Best claim support for your team.</p>
@@ -64,16 +64,22 @@ function Footer2() {
                         </div>
 
                         <div className='flex '>
-                            <div className='flex flex-col  items-center'>
-                                <span> <img src="https://assets-global.website-files.com/6145f7146a1337faae24d53f/641ae14346b446673edd8573_AICPA%20SOC%202.svg" loading="lazy" alt="AICPA SOC" class="certified-logo-img" className='h-[60px] w-[60px] mx-4' /></span>
+                            <div className='flex flex-col  items-center mx-2'>
+
+                                <img src="https://assets-global.website-files.com/6145f7146a1337faae24d53f/641ae14346b446673edd8573_AICPA%20SOC%202.svg" loading="lazy" alt="AICPA SOC" class="certified-logo-img" className='h-[60px] w-[60px] mx-4' />
+
                                 <span className='text-[15px]'>AICPA SOC 2</span>
                             </div>
-                            <div className='flex flex-col  items-center'>
-                                <span><img src="https://assets-global.website-files.com/6145f7146a1337faae24d53f/641ae2d62f5378f44aed2153_ISO%2027001%20(1).svg" loading="lazy" alt="ISO 27001" class="certified-logo-img" className='h-[60px] w-[60px] mx-4' /></span>
+                            <div className='flex flex-col  items-center mx-2'>
+
+                                <img src="https://assets-global.website-files.com/6145f7146a1337faae24d53f/641ae2d62f5378f44aed2153_ISO%2027001%20(1).svg" loading="lazy" alt="ISO 27001" class="certified-logo-img" className='h-[60px] w-[60px] mx-4' />
+
                                 <span className=' text-[15px]'>ISO 27001</span>
                             </div>
-                            <div className='flex flex-col  items-center'>
-                                <span> <img src="https://assets-global.website-files.com/6145f7146a1337faae24d53f/641ae2d6f9ebdeed52f78a6f_ISNP%20(3).svg" loading="lazy" alt="ISNP" class="certified-logo-img" className='h-[60px] w-[60px] mx-4 ' /></span>
+                            <div className='flex flex-col  items-center mx-2'>
+
+                                <img src="https://assets-global.website-files.com/6145f7146a1337faae24d53f/641ae2d6f9ebdeed52f78a6f_ISNP%20(3).svg" loading="lazy" alt="ISNP" class="certified-logo-img" className='h-[60px] w-[60px] mx-4 ' />
+
                                 <span className=' text-[15px]'>ISNP</span>
                             </div>
                         </div>
