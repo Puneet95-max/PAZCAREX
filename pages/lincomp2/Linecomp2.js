@@ -55,7 +55,7 @@ function Linecomp2() {
               />
               <div className='border-[1px]  border-black w-full'></div>
             </div>
-            <div className='text-4xl font-white flex flex-col justify-between'>
+            <div className='text-3xl md:text-4xl font-white flex flex-col justify-between'>
               <div className='flex justify-between'>
                 <p className='m-2 my-6 font-bold font-serif'> Simplify benefits management </p>
                 <div className='flex justify-end items-center'>
@@ -78,7 +78,7 @@ function Linecomp2() {
               />
               <div className='border-[1px] border-black w-full '></div>
             </div>
-            <div className='text-4xl font-bold flex flex-col justify-between'>
+            <div className='text-3xl md:text-4xl font-bold flex flex-col justify-between'>
               <div className='flex justify-between'>
                 <p className='m-2 my-6 font-bold font-serif'>Claims and benefits analytics</p>
                 <div className='flex justify-end items-center'>
@@ -102,7 +102,7 @@ function Linecomp2() {
               <div className='border-[1px]  border-black w-full '></div>
             </div>
 
-            <div className='text-4xl font-bold  flex flex-col justify-between'>
+            <div className='text-3xl md:text-4xl font-bold  flex flex-col justify-between'>
               <div className='flex justify-between'>
                 <p className='m-2 my-6 font-bold font-serif'> More benefits. Less switching</p>
                 <div className='flex justify-end items-center'>

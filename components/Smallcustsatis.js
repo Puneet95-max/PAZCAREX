@@ -30,7 +30,7 @@ function Smallcustsatis() {
                             {/* <img src="https://assets-global.website-files.com/6145f7146a1337faae24d53f/63f85777df873510ebdd9ca5_shield-icon%20(2).svg" className='absolute top-0 right-0 m-1' /> */}
                             <p className='text-purple-950 flex justify-center'>
                                 <p className=''><span className='text-[80px] font-bold'>9.2</span><span className='text-2xl'>/10</span></p> </p>
-                            <p className='font-bold  mx-2 text-purple-950'>Rating for overall customer satisfaction</p>
+                            <p className='font-bold  mx-3 text-purple-950'>Rating for overall customer satisfaction</p>
                         </div>
                     </div>
                     <div className='flex flex-row justify-center m-5 mx-14 my-10 '>
