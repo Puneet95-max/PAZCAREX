@@ -3,6 +3,7 @@ import Slider from 'react-slick';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css'
 import Image from 'next/image';
+import { motion } from 'framer-motion'
 
 
 function PazcareCorausal() {
@@ -44,29 +45,38 @@ function PazcareCorausal() {
     return (
 
         <main className='bg-slate-100 ' >
-            <div className='flex flex-col items-center   py-11 ' >
+            <motion.div
+                initial={{opacity:0}}
+                whileInView={{opacity:1}}
+                transition={{
+                    duration:1,
+                    ease:'easeInOut',
+                   
+                }}
+                className='flex flex-col items-center   py-11 '
+            >
                 <div className='font-bold font-serif text-3xl md:text-6xl my-5 mx-2 md:mt-16'>Why choose Pazcare?</div>
                 <div className='py-3 mx-3 text-center'>You're choosing flexibility, transparency, and personalization in your employee benefits when choosing Pazcare</div>
-            </div>
+            </motion.div>
             <div>
                 <Slider ref={sliderRef} {...settings} className='' >
                     <div className='slide-wrapper rounded-3xl' >
-                        <div className='flex flex-col bg-green-50 rounded-3xl border-2 ' style={{ width: '400px',height:"", margin: '0 auto' }}>
+                        <div className='flex flex-col bg-green-50 rounded-3xl border-2 ' style={{ width: '400px', height: "", margin: '0 auto' }}>
                             <div className='mx-5 text-3xl flex justify-center text-center' style={{ margin: "30px" }}>Handpick employee benefits which you want </div>
                             <div className='flex justify-center mx-10 text-center'>Handpick the ideal perks for  your team with a catalogue of choices</div>
                             <div><img src="https://assets-global.website-files.com/6145f7146a1337faae24d53f/64884c87c2377ab9d5d09745_handpick%20benefits.svg" className='mt-14'></img></div>
                         </div>
                     </div>
 
-                   
-                        <div className='slide-wrapper rounded-3xl'>
-                            <div className=' flex flex-col bg-purple-50  rounded-3xl border-2 ' style={{ width: '400px', margin: '0 auto' }}>
-                                <div className='mx-5 text-3xl flex justify-center text-center' style={{ margin: "30px" }}>Benfits that never go wasted</div>
-                                <div className='flex justify-center mx-10 text-center my-3'> The benefits are easily accessiable for  your team to explore,enjoy and make most of them</div>
-                                <div ><img src="https://assets-global.website-files.com/6145f7146a1337faae24d53f/64917af070e6f03c6d46b2a9_pazcare%20app.png" className='w-[400px]' /></div>
-                            </div>
+
+                    <div className='slide-wrapper rounded-3xl'>
+                        <div className=' flex flex-col bg-purple-50  rounded-3xl border-2 ' style={{ width: '400px', margin: '0 auto' }}>
+                            <div className='mx-5 text-3xl flex justify-center text-center' style={{ margin: "30px" }}>Benfits that never go wasted</div>
+                            <div className='flex justify-center mx-10 text-center my-3'> The benefits are easily accessiable for  your team to explore,enjoy and make most of them</div>
+                            <div ><img src="https://assets-global.website-files.com/6145f7146a1337faae24d53f/64917af070e6f03c6d46b2a9_pazcare%20app.png" className='w-[400px]' /></div>
                         </div>
-                
+                    </div>
+
 
                     <div className='slide-wrapper rounded-3xl'>
                         <div className=' bg-blue-50 flex flex-col rounded-3xl border-2  ' style={{ width: '400px', margin: '0 auto' }}>
