@@ -10,7 +10,7 @@ function Smallnavbar() {
   }
   return (
 
-    <div className='h-[4rem] p-10 shadow-2xl w-full bg-white  flex flex-row fixed z-50 justify-between  '>
+    <div className='h-[4rem] p-5 shadow-2xl w-full bg-white  flex flex-row fixed z-50 justify-between  '>
 
       <div className='flex items-center  text-left ' style={{ marginLeft: '' }}>
         <Link href={"/"}>
