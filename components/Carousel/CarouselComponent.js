@@ -7,7 +7,7 @@ import 'react-responsive-carousel/lib/styles/carousel.min.css';
 const CarouselComponent = () => {
   const customArrowStyles = {
     position: 'absolute',
-    top: 'calc(70% - 25px)', // Vertically center the arrows
+    top: 'calc(92% - 25px)', // Vertically center the arrows
     color: 'white',
     cursor: 'pointer',
     zIndex: 2,
@@ -21,6 +21,7 @@ const CarouselComponent = () => {
     display: 'flex',
     alignItems: 'center',
     justifyContent: 'center'
+    
 
   };
 
@@ -34,6 +35,7 @@ const CarouselComponent = () => {
       style={{
         ...customArrowStyles,
         left: 'calc(50% - 45px)', // Adjust the horizontal position for the left arrow
+        
       }}
     >
       &lt;
@@ -58,7 +60,7 @@ const CarouselComponent = () => {
       <div className='bg-purple-950 flex justify-center lg:text-6xl text-4xl font-bold text-white  p-5 lg:py-14 lg:pt-16 m-0'>Impact we made </div>
 
 
-      <Carousel className=''
+      <Carousel className='pb-2 '
         showArrows={false} // Hide default arrows
         showStatus={false}
         showThumbs={false}
@@ -72,7 +74,7 @@ const CarouselComponent = () => {
       >
 
         {/* first slide */}
-        <div className="carousel-slide h-screen md:h-96 bg-purple-950 text-white m-0">
+        <div className="carousel-slide h-[600px] md:h-96 bg-purple-950 text-white m-0">
           <div className='flex justify-center flex-col '>
             <div className='flex flex-col lg:flex-row w-full'>
               <div className='flex flex-col w-full  lg:w-2/3'>    <div className='flex flex-row justify-center '>
@@ -116,7 +118,7 @@ const CarouselComponent = () => {
 
 
         {/* second slide */}
-        <div className="carousel-slide h-screen md:h-96 bg-purple-950 text-white m-0">
+        <div className="carousel-slide h-[600px] md:h-96 bg-purple-950 text-white m-0">
 
 
           <div className='flex justify-center flex-col '>
@@ -164,7 +166,7 @@ const CarouselComponent = () => {
 
 
         {/* third slide */}
-        <div className="carousel-slide h-screen md:h-96 bg-purple-950 text-white" >
+        <div className="carousel-slide h-[600px] md:h-96 bg-purple-950 text-white" >
 
           <div className='flex justify-center flex-col '>
             <div className='flex flex-col lg:flex-row w-full'>
